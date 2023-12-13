@@ -7,7 +7,7 @@ const lucas = 'Lucas Lopes Lima'*/
 
 for(let a = 0; a < lucas.length; a++){
     console.log(lucas[a])
-}*/
+}
 
 const notas = []
 
@@ -27,4 +27,12 @@ for(let i = 0; i < notas.length; i++){
 
 const media = (soma / notas.length).toFixed(2)
 
-console.log(media)
+console.log(media)*/
+
+const numeros = [];
+
+    for (let i = 0; i < 10; i++) {
+        numeros.push(i);
+    }
+
+    console.log(numeros);
